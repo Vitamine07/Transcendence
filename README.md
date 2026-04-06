@@ -6,7 +6,7 @@ Each service, each different portion of the project need to have his own branch.
 
 Framework used :
 Frontend -> React(JavaScript/Typescript)
-Backend -> NestJS()
+Backend -> NestJS(Typescript)
 BDD -> PostgreSQL
 
 
