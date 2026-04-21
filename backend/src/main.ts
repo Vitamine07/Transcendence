@@ -10,6 +10,6 @@ async function bootstrap() {
     origin: 'http://localhost:5173', // CORS autorise un port qui differe du back-end, donc en gros autorise le front end a appeler le back en
   });
 
-  await app.listen(process.env.PORT ?? 3000);
+  await app.listen(process.env.PORT ?? 3000, '0.0.0.0');
 }
 bootstrap();
