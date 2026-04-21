@@ -1,7 +1,7 @@
 function HomePage() {
   return (
     <section>
-      <h1>ft_transcendancedle</h1>
+      <h1>Ft_transcendle</h1>
       <p>Welcome to the project frontend.</p>
     </section>
   );
