@@ -1,4 +1,4 @@
-After cloning, you must run `npm install` on both the backend and the frontend. @Murad @Amine @Paul !!!
+After cloning, you must run `npm install` on both the backend and the frontend.
 
 General direction !!!
 

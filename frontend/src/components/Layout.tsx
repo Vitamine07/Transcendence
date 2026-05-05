@@ -7,8 +7,9 @@ function Layout() {
             <header className="topbar">
                 <nav className="nav">
                     <Link to="/">Home</Link>
-                    <Link to="/login">Login/Register</Link>
                     <Link to="/profile">Profile</Link>
+                    <Link to="/login">Login</Link>
+
                 </nav>
             </header>
             <div className="content-shell">
@@ -16,14 +17,12 @@ function Layout() {
                     <Outlet />
                 </main>
 
-                <aside className="chat-sidebar">
+                {/* <aside className="chat-sidebar">
                     <ChatPanel />
-                </aside>
+                </aside> */}
             </div>
         </div>
     );
 }
 
 export default Layout;
-
-/* Temp Layout de test*/
